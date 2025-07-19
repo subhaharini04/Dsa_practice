@@ -1,22 +1,13 @@
 public class Main {
     public static void main(String[] args) {
-        DoublyLinkedList list=new DoublyLinkedList();
-        list.insertFirst(9);
-        list.insertFirst(3);
-        list.display();
-        list.insertEnd(4);
-        list.insertEnd(6);
-        list.display();
-        list.insertIndex(2,2);
-        list.insertIndex(8,4);
-        list.display();
-        list.deleteFirst();
-        list.display();
-        list.deleteLast();
-        list.display();
-        list.deleteIndex(2);
-        list.display();
-        list.reverse();
-        list.display();
+        StackLinkedList stack = new StackLinkedList();
+        stack.push(1);
+        stack.push(2);
+        stack.push(3);
+        stack.push(4);
+        stack.display();
+        stack.pop();
+        stack.display();
+        stack.peek();
     }
 }
