@@ -1,21 +1,18 @@
 public class Main {
     public static void main(String[] args) {
-        QueueCircularLinkedList queue=new QueueCircularLinkedList();
-        queue.enqueue(1);
-        queue.enqueue(2);
-        queue.enqueue(3);
-        queue.enqueue(4);
-        queue.enqueue(5);
+        DequeArray queue=new DequeArray(5);
+        queue.insertFront(1);
+        queue.insertFront(2);
         queue.display();
         System.out.println();
-        queue.dequeue();
+        queue.insertEnd(3);
+        queue.insertEnd(4);
         queue.display();
         System.out.println();
-        queue.enqueue(6);
+        queue.deleteFirst();
         queue.display();
         System.out.println();
-        queue.dequeue();
+        queue.deleteLast();
         queue.display();
-        System.out.println();
     }
 }
