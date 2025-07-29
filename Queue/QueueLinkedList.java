@@ -1,3 +1,5 @@
+package Queue;
+
 class Node3{
     int data;
     Node3 next;

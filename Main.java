@@ -1,3 +1,5 @@
+import Queue.DequeArray;
+
 public class Main {
     public static void main(String[] args) {
         DequeArray queue=new DequeArray(5);

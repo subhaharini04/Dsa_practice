@@ -1,3 +1,5 @@
+package Queue;
+
 public class QueueArray {
     int[] arr;
     int front;

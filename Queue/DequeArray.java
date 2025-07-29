@@ -1,3 +1,5 @@
+package Queue;
+
 public class DequeArray {
     int arr[];
     int front;

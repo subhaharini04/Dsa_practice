@@ -1,3 +1,5 @@
+package Stack;
+
 class Node2 {
     int num;
     Node2 next;
