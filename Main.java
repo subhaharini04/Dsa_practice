@@ -1,18 +1,19 @@
 import Queue.DequeArray;
 import Queue.DequeLinkedList;
+import Queue.PriorityQueue;
 
 public class Main {
     public static void main(String[] args) {
-        DequeLinkedList queue=new DequeLinkedList();
-        queue.insertFront(1);
-        queue.insertFront(2);
+        PriorityQueue queue=new PriorityQueue();
+        queue.insert(1,4);
+        queue.insert(2,3);
+        queue.insert(3,1);
+        queue.insert(4,1);
         queue.display();
-        queue.insertEnd(3);
-        queue.insertEnd(4);
+        queue.peek();
+        queue.remove();
         queue.display();
-        queue.deleteFirst();
-        queue.display();
-        queue.deleteLast();
+        queue.remove();
         queue.display();
     }
 }
